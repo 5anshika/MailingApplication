@@ -1,0 +1,97 @@
+body{
+    background-image: url("pink.jpg");
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+
+
+}
+  
+
+   .a{ 
+   font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+    color:white;
+    
+   }
+
+   .img{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 15%;
+    border-radius: 50%;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top:20px;
+    padding-right:150px;
+    font-size:25px;
+    padding-bottom: 20px;
+  }
+
+  button {
+    background-color:green;
+    color: white;
+    border-radius: 12px;
+    font-size:27px;
+    padding: 12px 12px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:24%;
+  }
+
+  button:hover {
+    opacity: 0.5;
+  }
+
+  
+ .text{
+    display: center;
+    display:center;
+    margin-left:225px;
+margin-right: 225px;
+margin-top: 5px;
+margin-bottom:5px ;
+    border-radius: 30px;
+    font-size:29px;
+    font-weight: bolder;
+    color:black;
+    padding-bottom:52px;
+    padding-left:15px;
+    padding-right:15px ;
+    padding-top:5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+ } 
+
+ .space{
+line-height: 0.5;
+ }
+
+ .gap{
+   line-height:0.5;
+ }
+ .p {
+	border: none;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.09);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color:none;
+	margin-bottom: 32px;
+   font-size:25px;
+   color:#2c2c2c;
+   font-family: Georgia, "Times New Roman", Times, serif;
+ }
+
+.p:hover{
+  opacity: 0.7;
+}
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+body{
+    background-image: url("pink.jpg");
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position:center ;
+	opacity:10;
+}
+  
+
+.form{
+	max-width: 500px;
+	padding: 8px 29px;
+	margin: 33px auto;
+    padding-top: 30px;
+    padding-bottom: 16px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form fieldset{
+	border: none;
+}
+.form legend {
+	
+	font-size:50px;
+	margin-bottom: 12px;
+}
+
+button
+{
+	position: relative;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	background:  #522742;
+	font-size: 39px;
+	text-align: center;
+    width: 90%;
+	border-radius: 8px ;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	border-width: 1px 1px 3px;
+	margin-bottom: 5px;
+}
+
+button:hover{
+	background: #996786;;
+    border: 1px solid  #996786;;
+}
+
+.form .box{
+    background: #522742;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	height: 20px;
+	width: 20px;
+    line-height:8px;
+	border-radius: 15px 15px 15px 0px;
+}
+
+.form input,
+.form textarea,
+.form select{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 8px;
+	font-size: 35px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	color:rgb(43, 39, 39);
+	margin-bottom: 30px;
+}
+
+
+.form input:focus,
+.form textarea:focus,
+.form:focus{
+	opacity: 0.7;
+}
+.s{
+   
+	padding-right:20px;
+	color:white;
+	text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding-left: 30px;
+	
+}
+
+    </style>
+    
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <div class="form">
+        <form>
+        <fieldset>
+        <legend class="box"><span class="s">Compose</span></legend>
+
+        <input type="email" name="field1" placeholder="To" required>
+		<input type="email" name="field2" placeholder="From" required>
+		<input type="text" name="field2" placeholder="Subject" required>
+        <textarea type="message" name="field3" placeholder="Message" required></textarea>
+    
+    </fieldset>
+	<button formaction="Endpg.html">Send</button>
+    </form>
+	</div>
+	
+    </center>
+</body>
+</html>
